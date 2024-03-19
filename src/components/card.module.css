@@ -1,0 +1,24 @@
+.cardMainBox{
+    width: 392px;
+    padding: 20px;
+    background-color: white;
+    transition: transform 0.9s ease;
+    border-radius: 10px;
+}
+
+.cardMainBox:hover {
+    -ms-transform: scale(1.04); /* IE 9 */
+    -webkit-transform: scale(1.04); /* Safari 3-8 */
+    transform: scale(1.04); 
+  }
+
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 1419px) {
+    .cardMainBox{
+        width: 332px;
+    }
+  }
